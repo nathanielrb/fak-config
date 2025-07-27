@@ -37,9 +37,9 @@ let shared_layers = {
 #                              XXXX,    XXXX,
 #  ],
   NUMDE = [
-   XXXX,    XXXX,    XXXX,    XXXX,    XXXX,        kc.N0,   kc.N1,   kc.N2,   kc.N3,   kc.DOT,
-   md.lctl, md.lalt, md.lgui, md.lsft, XXXX,        kc.N0,   kc.N4,   kc.N5,   kc.N6,   kc.DOT,
-            XXXX,    XXXX,    XXXX,                          kc.N7,   kc.N8,   kc.N9,
+   kc.F1,  kc.F2,   kc.F3,   kc.F4,   kc.F12,       kc.N0,   kc.N1,   kc.N2,   kc.N3,   kc.DOT,
+   kc.F5,  kc.F6,   kc.F7,   kc.F8,   kc.F12,       kc.N0,   kc.N4,   kc.N5,   kc.N6,   kc.DOT,
+           kc.F9,   kc.F10,  kc.F11,                         kc.N7,   kc.N8,   kc.N9,
                               XXXX,    XXXX,        kc.E,    kc.N0,
   ],
   SYMDE = [
@@ -55,9 +55,9 @@ let shared_layers = {
                               ks.LCBR, ks.RCBR,     XXXX,    XXXX,
   ],
   FUN = [
-   XXXX,    XXXX,    XXXX,    XXXX,    XXXX,        kc.F12,  kc.F7,   kc.F8,   kc.F9,   kc.F10,
-   XXXX,    XXXX,    XXXX,    XXXX,    XXXX,        kc.F11,  kc.F4,   kc.F5,   kc.F6,   kc.F10,
-            XXXX,    XXXX,    XXXX,                          kc.F1,   kc.F2,   kc.F3,
+  kc.DOT,   kc.N7,   kc.N8,   kc.N9,   kc.N0,       kc.F12,  kc.F7,   kc.F8,   kc.F9,   kc.F10,
+  kc.DOT,   kc.N4,   kc.N5,   kc.N6,   kc.N0,       kc.F11,  kc.F4,   kc.F5,   kc.F6,   kc.F10,
+            kc.N1,   kc.N2,   kc.N3,                         kc.F1,   kc.F2,   kc.F3,
                               XXXX,    XXXX,        XXXX,    XXXX,
   ],
 } in
