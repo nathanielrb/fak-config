@@ -39,10 +39,10 @@ let XXXX = tap.none & hold.none in
                        kc.K,
      ],
      [
-    tm.lsft & kc.BACKSLASH, tm.lsft & kc.N6, tm.lsft & kc.N4, tm.lsft & kc.N5, XXXX,        XXXX,  tm.lsft & kc.N8, kc.MINS, tm.lsft & kc.SLSH,  tm.lsft & kc.N1,
-      tm.lsft & kc.MINS,  tm.lsft & kc.N7,  tm.lsft & kc.N3, kc.GRV, XXXX,                        XXXX, tm.lsft & kc.DOT, kc.DOT, kc.QUOT,  tm.lsft & kc.QUOT,
+    tm.lsft & kc.BACKSLASH, tm.lsft & kc.N6, tm.lsft & kc.N4, tm.lsft & kc.N5, XXXX,        tm.lsft & kc.N5,  tm.lsft & kc.N8, kc.MINS, tm.lsft & kc.SLSH,  tm.lsft & kc.N1,
+      tm.lsft & kc.MINS,  tm.lsft & kc.N7,  tm.lsft & kc.N3, kc.GRV, XXXX,                        kc.GRV, kc.COMMA, kc.DOT, kc.QUOT,  tm.lsft & kc.QUOT,
      tm.lsft & kc.GRV,  tm.lsft & kc.N2, kc.BACKSLASH,                      kc.SEMICOLON,  tm.lsft & kc.SEMICOLON, kc.SLSH,
-                       to 2, XXXX,                         sl 3, sl 3,
+                       to 2, to 2,                         sl 3, sl 3,
         # Combos
                        XXXX,
                        XXXX,
@@ -52,8 +52,8 @@ let XXXX = tap.none & hold.none in
                        XXXX,
      ],
           [
-     kc.B, kc.PGUP, kc.O, kc.U, XXXX,                           XXXX, tm.lsft & kc.N9, tm.lsft & kc.N0, kc.DEL, kc.F11,
-     kc.HOME, kc.END, kc.LEFT, kc.RIGHT, XXXX,                           XXXX, kc.ENTER, kc.BSPC, kc.TAB, kc.ESC, 
+     kc.B, kc.PGUP, kc.O, kc.U, XXXX,                           tm.lsft & kc.N6, tm.lsft & kc.N9, tm.lsft & kc.N0, kc.DEL, kc.F11,
+     kc.HOME, kc.END, kc.LEFT, kc.RIGHT, XXXX,                           tm.lsft & kc.N4, kc.ENTER, kc.BSPC, kc.TAB, kc.ESC, 
         kc.PGDN, kc.UP, kc.DOWN,                                    kc.LEFT_BRACKET, kc.RIGHT_BRACKET, tm.lsft & kc.TAB,
                        to 3, to 3,                   to 0, to 0,
                        # Combos
