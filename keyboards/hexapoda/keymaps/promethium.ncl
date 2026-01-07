@@ -41,8 +41,8 @@ let XXXX = tap.none & hold.none in
      [
     tm.lsft & kc.BACKSLASH, tm.lsft & kc.N6, tm.lsft & kc.N4, tm.lsft & kc.N5, XXXX,        tm.lsft & kc.N5,  tm.lsft & kc.N8, kc.MINS, tm.lsft & kc.SLSH,  tm.lsft & kc.N1,
       tm.lsft & kc.MINS,  tm.lsft & kc.N7,  tm.lsft & kc.N3, kc.GRV, XXXX,                        kc.GRV, kc.COMMA, kc.DOT, kc.QUOT,  tm.lsft & kc.QUOT,
-     tm.lsft & kc.GRV,  tm.lsft & kc.N2, kc.BACKSLASH,                      kc.SEMICOLON,  tm.lsft & kc.SEMICOLON, kc.SLSH,
-                       to 2, to 2,                         sl 3, sl 3,
+     tm.lsft & kc.GRV,  tm.lsft & kc.N2, kc.GRV,                      kc.SEMICOLON,  tm.lsft & kc.SEMICOLON, kc.SLSH,
+                       to 4, to 4,                         sl 3, sl 3,
         # Combos
                        XXXX,
                        XXXX,
@@ -54,7 +54,7 @@ let XXXX = tap.none & hold.none in
           [
      kc.B, kc.PGUP, kc.O, kc.U, XXXX,                           tm.lsft & kc.N6, tm.lsft & kc.N9, tm.lsft & kc.N0, kc.DEL, kc.F11,
      kc.HOME, kc.END, kc.LEFT, kc.RIGHT, XXXX,                           tm.lsft & kc.N4, kc.ENTER, kc.BSPC, kc.TAB, kc.ESC, 
-        kc.PGDN, kc.UP, kc.DOWN,                                    kc.LEFT_BRACKET, kc.RIGHT_BRACKET, tm.lsft & kc.TAB,
+        kc.PGDN, kc.UP, kc.DOWN,                                    kc.LEFT_BRACKET, kc.RIGHT_BRACKET, kc.BACKSLASH,
                        to 3, to 3,                   to 0, to 0,
                        # Combos
                        XXXX,
@@ -67,8 +67,22 @@ let XXXX = tap.none & hold.none in
           [
      tm.lsft & kc.N6, kc.SLASH, kc.EQUAL, tm.lsft & kc.EQUAL, XXXX,        XXXX, kc.N7, kc.N8, kc.N9, kc.H,
      kc.N0, kc.N3, kc.N2, kc.N1, XXXX,                                     XXXX, kc.N4, kc.N5, kc.N6, kc.SEMICOLON, 
-           sm.lsft, sl 2 & hl 2 & beh {}, sl 1 & hl 1 & beh {},                 tm.lsft & kc.N8, kc.MINS, tm.lsft & kc.N5,
+           sm.lsft, sl 2 & hl 2 & beh {}, sl 1 & hl 1 & beh {},                 tm.lsft & kc.N6, kc.N4, tm.lsft & kc.N5,
                        kc.SPC, kc.SPC,                                 to 0, to 0,
+                       # Combos
+                       XXXX,
+                       XXXX,
+                       XXXX,
+                       XXXX,
+                       XXXX,
+                       XXXX,
+     ],
+
+          [
+     XXXX, XXXX, XXXX, XXXX, XXXX,                           XXXX, kc.PGDWN, kc.PGUP, XXXX, XXXX,
+     kc.lgui, kc.lalt, kc.lsft, kc.lctl, XXXX,                       XXXX, kc.LEFT, kc.RIGHT, kc.HOME, kc.END,
+        XXXX, sl 2 & hl 2 & beh {}, sl 1 & hl 1 & beh {},                                      kc.DOWN, kc.UP, XXXX,
+                       kc.SPC, kc.SPC,                   to 0, to 0,
                        # Combos
                        XXXX,
                        XXXX,
