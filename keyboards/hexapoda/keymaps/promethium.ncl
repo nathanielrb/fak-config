@@ -80,7 +80,7 @@ let XXXX = tap.none & hold.none in
 
           [
      XXXX, XXXX, XXXX, XXXX, XXXX,                           XXXX, kc.PGDN, kc.PGUP, XXXX, XXXX,
-     XXXX, kc.lalt, kc.lsft, kc.lctl, XXXX,                       XXXX, kc.LEFT, kc.RIGHT, kc.HOME, kc.END,
+     md.alt, md.lalt, md.lsft, md.lctl, XXXX,                       XXXX, kc.LEFT, kc.RIGHT, kc.HOME, kc.END,
         XXXX, sl 2 & hl 2 & beh {}, sl 1 & hl 1 & beh {},                                      kc.DOWN, kc.UP, XXXX,
                        kc.SPC, kc.SPC,                   to 0, to 0,
                        # Combos
