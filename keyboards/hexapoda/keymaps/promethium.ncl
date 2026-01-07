@@ -67,7 +67,7 @@ let XXXX = tap.none & hold.none in
           [
      tm.lsft & kc.N6, kc.SLASH, kc.EQUAL, tm.lsft & kc.EQUAL, XXXX,        XXXX, kc.N7, kc.N8, kc.N9, kc.H,
      kc.N0, kc.N3, kc.N2, kc.N1, XXXX,                                     XXXX, kc.N4, kc.N5, kc.N6, kc.SEMICOLON, 
-           sm.lsft, sl 2 & hl 2 & beh {}, sl 1 & hl 1 & beh {},                 tm.lsft & kc.N6, kc.N4, tm.lsft & kc.N5,
+           sm.lsft, sl 2 & hl 2 & beh {}, sl 1 & hl 1 & beh {},                 tm.lsft & kc.N6, tm.lsft & kc.N4, tm.lsft & kc.N5,
                        kc.SPC, kc.SPC,                                 to 0, to 0,
                        # Combos
                        XXXX,
